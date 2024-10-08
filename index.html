@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Listings</h1>
+        <div class="filter">
+            <label for="jobType">Job Type:</label>
+            <select id="jobType">
+                <option value="all">All</option>
+                <option value="full-time">Full-Time</option>
+                <option value="part-time">Part-Time</option>
+                <option value="contract">Contract</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <ul id="jobList">
+            <!-- Job items will be dynamically inserted here -->
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
